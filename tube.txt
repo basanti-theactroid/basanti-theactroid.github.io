@@ -1,0 +1,16 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6NFyWUuSVTY" frameborder="0" allowfullscreen></iframe>
+
+all motions
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7lENJXI7HcY" frameborder="0" allowfullscreen></iframe>
+
+face tracking
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/daeNkr4uozk" frameborder="0" allowfullscreen></iframe>
+
+voice based motions
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R2514EQ6Tsw" frameborder="0" allowfullscreen></iframe>
+
+question answerinfg
+

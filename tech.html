@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<!--
+	Iridium by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+		<head>
+		<title>The Smart Animatronic Face - Basanti</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link href='http://fonts.googleapis.com/css?family=Arimo|Bubblegum+Sans:400,700' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body class="no-sidebar">
+
+		<!-- Header -->
+		<div id="header">
+			<div class="container"> 
+				
+				<!-- Logo -->
+				<div id="logo">
+					<h1 ><a style="color:black;" href="#">Basanti</a></h1>
+					<br>
+					<h3><a style="color:black;">A platform to present the in-house developed smart animatronic human face </a></h3>
+					<hr>
+				</div>
+				
+				<!-- Nav -->
+				<nav id="nav">
+					<ul >
+						<li ><a  style="color:black" href="index.html">Home</a></li>
+						<li ><a style="color:black" href="gallery.html">Gallery</a></li>
+						<li class="active"><a style="color:black" href="tech.html">Technologies</a></li>
+						<li><a style="color:black" href="doc.pdf">Documentation</a></li>
+						<li><a style="color:black" href="team.html">Team</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<!-- Main -->
+		
+		<div id="main">
+			<div class="container">
+				<div class="row"> 
+					
+					<!-- Content -->
+					<div id="content" class="12u skel-cell-important">
+						<section>
+							<header>
+								<center><h2>Replicating the facial movements</h2>
+								<span class="byline">Creating a complete replica of human face meant it has all the motions of the human face</span></center>
+							</header>
+							<center><iframe width="740" height="472.5" src="https://www.youtube.com/embed/6NFyWUuSVTY" frameborder="0" allowfullscreen></iframe></center>
+							<br><br>
+							<p class="text" align="justify">The robot has multiple motions, each supported by an underlying custom designed mechanism powered by closed-loop servo motors. Aimed at precision in movement and accuracy in the same, without generating much a backlash; all the joints are provided little higher than rated power to ensure maximum efficiency of the motors. Modular structure reduces the dependence any one mechanism over the other.</p>
+							<p> The movable joints of Basanti 1.0 include:</p>
+							<li><b>Upper & Lower Lips </b></li> <p align="justify">One servo motor drives a two-spur gear arrangement(1:1 gear ratio) with one half of the lip mounted atop each spur gear and make each half converge and diverge simultaneously, just like human lips. The upper lip arrangement is attached to the immovable face by suspending the motor assembly from the rear while the lower lip arrangement is housed inside the jaw which is itself movable - just like a human face.</p>
+							<li><b>Eyeballs</b></li> <p align="justify">3D printed rack and pinion arrangement driven by one servo motor has the two eyeballs move two and fro by attaching extensions to the rack</p>
+							<li><b>Jaw</b></li> <p align="justify">Another powerful servo motor powers this jaw revolute joint that also has the lower lip motion arrangement. It is the most important intricate part of Basanti 1.0 that gives it a human-like appearance.</p>
+							<li><b>Neck - Pan and Tilt</b></li> <p align="justify">Pan motion is facilitated by a high torque dual-shaft servo motor that is attached to the complete setup. Tilt motion is difficult to achieve and needs extremely high torque. To power this revolute joint, a geared-DC motor with custom-designed feedback setup is used in order to reduce costs and the required input power.</p>
+							<hr>
+
+							<header>
+								<center><h2>Face Tracking</h2>
+								<span class="byline">A human face is capable of understanding the environment visually and perform related tasks</span></center>
+							</header>
+							<center><iframe width="740" height="472.5" src="https://www.youtube.com/embed/7lENJXI7HcY" frameborder="0" allowfullscreen></iframe></center>
+							<br><br><p class="text" align="justify">Basanti 1.0 has a webcam mounted on its head that acts as its eyes, giving it the visual feed of the surroundings. However, usage of single camera doesn't allow for stereovision which is the primary requirement for depth-perception and focussing- one of the major tasks of the human eye. </p>
+							<p> Face tracking task achieved by Basanti 1.0 currently shows only the pan motion of the neck to the track the faces in front and keep the face aligned to the centre of its canvas. Future versions of Basanti are envisaged to have multiple axis tracking as well capability of doing the same with the eyes.</p>
+							<hr>
+
+							<header>
+								<center><h2>Basic Question-Answering</h2>
+								<span class="byline">Listening, understanding and then replying to one's questions forms the foundation of communication in human beings</center>
+							</header>
+							<center><iframe width="740" height="472.5" src="https://www.youtube.com/embed/R2514EQ6Tsw" frameborder="0" allowfullscreen></iframe></center>
+							<br><br><p class="text" align="justify">Basanti 1.0 has a mic as well as a speaker that act as the ears and the voice of the robotic face. Running a CNN on the inside, Basanti 1.0 is capable of listening to the user's questions, processing them via various algorithms - from basic keyword search to advanced end to end memory networks and then replying with an answer derived from either the biograpy fed to it or it deduced from the internet via the operational algorithms.  </p>
+								<center><a  class="image full"><img src="images/qa.png" style="width:600px"  	alt="" /></a><center>
+								<hr>
+
+							<header>
+								<center><h2>Movement based on Voice commands</h2>
+								<span class="byline">What good is a robot if can't make moves as the operator wants it to</center>
+							</header>
+							<center><iframe width="740" height="472.5" src="https://www.youtube.com/embed/daeNkr4uozk" frameborder="0" allowfullscreen></iframe></center>
+							<br><br><p class="text" align="justify">Basanti 1.0 responds to the commands it is fed and does all the motions(currently only the prerecorded ones - motions of the neck like turn right, turn left; rolling eyes, openinng and closing jaws etc.) based on keyword search or similarity index search from within the input voice command. Owing to the computational limitations, the system has considerable lag which can be avoided in the future versions. </p>
+
+								<hr>
+								
+							<header>
+								<center><h2>Face Detection and Recognition</h2>
+								<span class="byline">Visual feed isn't just limited to seeing the environment, but also	extracting the details out of it </center>
+							</header>
+							<center><iframe width="740" height="472.5" src="https://www.youtube.com/embed/pjvoPjfqZKE" frameborder="0" allowfullscreen></iframe></center>
+							<br><br><p class="text" align="justify">Basanti 1.0 does perform object detection and identification, but the primary task means detecting and recognising human faces out of it. Using popular algorithms like Voila Jones or HOG based recognition and trained using Deep Learning techniques; Basanti 1.0 is capable of facial identification with as less as one training image. Further versions should test in-house developed techniques for better real-time performance that doesn't have the limitations of frontal view/side view or picture quality.	</p>
+								
+								<hr><hr>								
+
+
+								</section>
+					</div>
+					
+				</div>
+			</div>
+		</div>		
+
+
+
+
+			
+			
+
+		
+	</body>
